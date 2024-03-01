@@ -1,0 +1,105 @@
+@import url('https://www.fontsaddict.com/fontface/magic-school-one.ttf');
+
+* {
+    font-family: 'Magic School One';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url('ezgif.com-webp-to-jpg-converter.jpg');
+    background-size: contain;
+    background-repeat: repeat;
+    text-align: center;
+}
+
+section {
+    width: 600px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(255, 61, 158); /* Maroon red background color */
+    color: rgb(255, 255, 255); /* White text color */
+    padding: 10px; /* Add padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+    margin: 0; /* Remove default margin */
+}
+
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(186,85,211);
+    color: rgb(255, 255, 255);
+    padding: 10px; /* Add padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+    margin: 0; /* Remove default margin */
+}
+
+p {
+    font-size: 15px;
+    text-align: left;
+    background-color: rgb(255, 61, 158);
+    color: rgb(255, 255, 255);
+    padding: 10px; /* Add padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+    margin: 0; /* Remove default margin */
+}
+
+.title-block {
+    width: 600px;
+    height: 210px;
+    background-color: rgb(128, 0, 0);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.answer-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 16px 0 23px 0;
+    background-color: rgb(255, 61, 158); /* Dark green background color */
+    color: rgb(255, 255, 255);
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Add padding for spacing */
+}
+
+.answer-block {
+    width: 286px;
+    height: 286px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0 0 0 1px;
+    text-align: center;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.answer-block img {
+    width: 100%;
+}
+
+.answer-block p {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.answer-block a {
+    color: rgb(137, 137, 137);
+}
+
+.result-block {
+    width: 600px;
+    background-color: rgb(186,85,211);
+    border-radius: 5px;
+    border: solid rgb(186,85,211) 20px;
+}
+
+.result-block img {
+    width: 100%;
+}
