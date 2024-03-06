@@ -128,7 +128,7 @@ const questions = [
 const answers = [
     {
         combination: ["Charge in headfirst, without thinking", "Immediately step in and defend the person", "Adventure and action", "Through sheer determination and bravery"],
-        text: "'You are in the house of Gryffindor! You are bold, passionate, and brave.",
+        text: "You are in the house of Gryffindor! You are bold, passionate, and brave.",
         image: "https://images.unsplash.com/photo-1594399430386-913fd5defaa4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z3J5ZmZpbmRvcnxlbnwwfHwwfHx8MA%3D%3D",
         alt: "Gryffindor Alt Text"
     },
@@ -139,16 +139,104 @@ const answers = [
         alt: "Slytherin Alt Text"
     },
     {
-        combination: ["Analyze the situation and find the most logical solution", "Work to create a fair and inclusive environment for everyone", "Intellectual and thought-provoking books", "By utilizing your intelligence and wit"],
+        combination: ["Analyze the situation and find the most logical solution", "Evaluate the situation and take a stand against the unfair treatment", "Intellectual and thought-provoking books", "By utilizing your intelligence and wit"],
         text: "You are in the house of Ravenclaw! You are wise, perceptive, and quietly brilliant.",
         image: "https://media.istockphoto.com/id/1415220925/photo/raven.webp?b=1&s=170667a&w=0&k=20&c=S_9fiz-5pP68fHUB7uUwDsihrI0q4IDm6Z4Zr1VAWtw=",
         alt: "Ravenclaw Alt Text"
     },
     {
-        combination: ["Collaborate with others and work as a team", "Evaluate the situation and take a stand against the unfair treatment", "Stories that emphasize friendship and cooperation", "By collaborating with others and leveraging teamwork"],
+        combination: ["Collaborate with others and work as a team", "Work to create a fair and inclusive environment for everyone", "Stories that emphasize friendship and cooperation", "By collaborating with others and leveraging teamwork"],
         text: "You are in the house of Hufflepuff! You are reserved, rational, and down-to-earth.",
         image: "https://plus.unsplash.com/premium_photo-1667238806278-747025bd048e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFkZ2VyfGVufDB8fDB8fHww",
         alt: "Hufflepuff Alt Text"
+    },
+    {
+        combination: ["Charge in headfirst, without thinking", "Evaluate the situation and take a stand against the unfair treatment", "Books that emphasize friendship and cooperation", "By collaborating with others and leveraging teamwork"],
+        text: "You are in the house of Gryffindor! You are bold, passionate, and brave.",
+        image: "https://images.unsplash.com/photo-1594399430386-913fd5defaa4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z3J5ZmZpbmRvcnxlbnwwfHwwfHx8MA%3D%3D",
+        alt: "Gryffindor Alt Text"
+    },
+    {
+        combination: ["Strategize and plan carefully", "Evaluate the situation and take a stand against the unfair treatment", "Intellectual and thought-provoking books", "By collaborating with others and leveraging teamwork"],
+        text: "You are in the house of Ravenclaw! You are wise, perceptive, and quietly brilliant.",
+        image: "https://media.istockphoto.com/id/1415220925/photo/raven.webp?b=1&s=170667a&w=0&k=20&c=S_9fiz-5pP68fHUB7uUwDsihrI0q4IDm6Z4Zr1VAWtw=",
+        alt: "Ravenclaw Alt Text"
+    },
+    {
+        combination: ["Charge in headfirst, without thinking", "Evaluate the situation and take a stand against the unfair treatment", "Intellectual and thought-provoking books", "By collaborating with others and leveraging teamwork"],
+        text: "You are in the house of Ravenclaw! You are wise, perceptive, and quietly brilliant.",
+        image: "https://media.istockphoto.com/id/1415220925/photo/raven.webp?b=1&s=170667a&w=0&k=20&c=S_9fiz-5pP68fHUB7uUwDsihrI0q4IDm6Z4Zr1VAWtw=",
+        alt: "Ravenclaw Alt Text"
+    },
+    {
+        combination: ["Strategize and plan carefully", "Immediately step in and defend the person", "Adventure and action", "Through sheer determination and bravery"],
+        text: "You are in the house of Gryffindor! You are bold, passionate, and brave.",
+        image: "https://images.unsplash.com/photo-1594399430386-913fd5defaa4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z3J5ZmZpbmRvcnxlbnwwfHwwfHx8MA%3D%3D",
+        alt: "Gryffindor Alt Text"
+    },
+    {
+        combination: ["Charge in headfirst, without thinking", "Evaluate the situation and take a stand against the unfair treatment", "Books that emphasize friendship and cooperation", "By collaborating with others and leveraging teamwork"],
+        text: "You are in the house of Hufflepuff! You are reserved, rational, and down-to-earth.",
+        image: "https://plus.unsplash.com/premium_photo-1667238806278-747025bd048e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFkZ2VyfGVufDB8fDB8fHww",
+        alt: "Hufflepuff Alt Text"
+    },
+    {
+        combination: ["Strategize and plan carefully", "Evaluate the situation and take a stand against the unfair treatment", "Intellectual and thought-provoking books", "By collaborating with others and leveraging teamwork"],
+        text: "You are in the house of Slytherin! You are sneaky, resourceful, and not afraid to bend the rules.",
+        image: "https://images.unsplash.com/photo-1594384151968-e1616fa703ea?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2x5dGhlcmlufGVufDB8fDB8fHww",
+        alt: "Slytherin Alt Text"
+    },
+    {
+        combination: ["Charge in headfirst, without thinking", "Collaborate with others and work as a team", "Stories that emphasize friendship and cooperation", "By utilizing your intelligence and wit"],
+        text: "You are in the house of Hufflepuff! You are reserved, rational, and down-to-earth.",
+        image: "https://plus.unsplash.com/premium_photo-1667238806278-747025bd048e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFkZ2VyfGVufDB8fDB8fHww",
+        alt: "Hufflepuff Alt Text"
+    },
+    {
+        combination: ["Analyze the situation and find the most logical solution", "Evaluate the situation and take a stand against the unfair treatment", "Books that provide useful knowledge and life skills", "Through sheer determination and bravery"],
+        text: "You are in the house of Ravenclaw! You are wise, perceptive, and quietly brilliant.",
+        image: "https://media.istockphoto.com/id/1415220925/photo/raven.webp?b=1&s=170667a&w=0&k=20&c=S_9fiz-5pP68fHUB7uUwDsihrI0q4IDm6Z4Zr1VAWtw=",
+        alt: "Ravenclaw Alt Text"
+    },
+    {
+        combination: ["Collaborate with others and work as a team", "Find a way to address the injustice without drawing too much attention", "Adventure and action", "Through sheer determination and bravery"],
+        text: "You are in the house of Gryffindor! You are bold, passionate, and brave.",
+        image: "https://images.unsplash.com/photo-1594399430386-913fd5defaa4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z3J5ZmZpbmRvcnxlbnwwfHwwfHx8MA%3D%3D",
+        alt: "Gryffindor Alt Text"
+    },
+    {
+        combination: ["Charge in headfirst, without thinking", "Evaluate the situation and take a stand against the unfair treatment", "Stories that emphasize friendship and cooperation", "By utilizing your intelligence and wit"],
+        text: "You are in the house of Ravenclaw! You are wise, perceptive, and quietly brilliant.",
+        image: "https://media.istockphoto.com/id/1415220925/photo/raven.webp?b=1&s=170667a&w=0&k=20&c=S_9fiz-5pP68fHUB7uUwDsihrI0q4IDm6Z4Zr1VAWtw=",
+        alt: "Ravenclaw Alt Text"
+    },
+    // Combination 7
+    {
+        combination: ["Strategize and plan carefully", "Immediately step in and defend the person", "Books that emphasize friendship and cooperation", "Through sheer determination and bravery"],
+        text: "You are in the house of Gryffindor! You are bold, passionate, and brave.",
+        image: "https://images.unsplash.com/photo-1594399430386-913fd5defaa4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z3J5ZmZpbmRvcnxlbnwwfHwwfHx8MA%3D%3D",
+        alt: "Gryffindor Alt Text"
+    },
+    // Combination 8
+    {
+        combination: ["Analyze the situation and find the most logical solution", "Immediately step in and defend the person", "Intellectual and thought-provoking books", "By utilizing your intelligence and wit"],
+        text: "You are in the house of Ravenclaw! You are wise, perceptive, and quietly brilliant.",
+        image: "https://media.istockphoto.com/id/1415220925/photo/raven.webp?b=1&s=170667a&w=0&k=20&c=S_9fiz-5pP68fHUB7uUwDsihrI0q4IDm6Z4Zr1VAWtw=",
+        alt: "Ravenclaw Alt Text"
+    },
+    // Combination 9
+    {
+        combination: ["Collaborate with others and work as a team", "Evaluate the situation and take a stand against the unfair treatment", "Adventure and action", "By collaborating with others and leveraging teamwork"],
+        text: "You are in the house of Hufflepuff! You are reserved, rational, and down-to-earth.",
+        image: "https://plus.unsplash.com/premium_photo-1667238806278-747025bd048e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFkZ2VyfGVufDB8fDB8fHww",
+        alt: "Hufflepuff Alt Text"
+    },
+    // Combination 10
+    {
+        combination: ["Charge in headfirst, without thinking", "Work to create a fair and inclusive environment for everyone", "Books that provide useful knowledge and life skills", "By utilizing your intelligence and wit"],
+        text: "You are in the house of Gryffindor! You are bold, passionate, and brave.",
+        image: "https://images.unsplash.com/photo-1594399430386-913fd5defaa4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z3J5ZmZpbmRvcnxlbnwwfHwwfHx8MA%3D%3D",
+        alt: "Gryffindor Alt Text"
     }
 ];
 
@@ -230,16 +318,13 @@ const showAnswer = () => {
     let result
     answers.forEach(answer => {
         if (
-            chosenAnswers.includes(answer.combination[0]) +
-            chosenAnswers.includes(answer.combination[1]) +
-            chosenAnswers.includes(answer.combination[2]) +
-            chosenAnswers.includes(answer.combination[3])
+            answer.combination.every(answerText => chosenAnswers.includes(answerText))
         ) {
             result = answer
             return;
         } else if (!result) {
-            //first answer object is default
-            result = answers[0]; 
+            //second answer object is default
+            result = answers[2]; 
         }
     })
 
